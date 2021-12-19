@@ -2,7 +2,7 @@
 
 Sonic the Graphic Novel Collection is a fan project to recompile the stories from the UK comics publication [Sonic the Comic](https://en.wikipedia.org/wiki/Sonic_the_Comic) into a standalone Graphic Novel format, complete with new front and back covers, contents pages, and improved image quality. Check [the images at the bottom of this page](#preview) for a preview of what this looks like!
 
-The presentation of these graphic novels is broadly inspired by [Judge Dredd: The Complete Case Files](https://shop.2000ad.com/catalogue/graphic-novels/dredd-case-files). Stories that were originally split into multiple parts have been joined back together, spin-off stories have been carefully positioned for continuity with the main strip, and unrelated articles and adverts have been removed. In all: these novels aim to be the best possible way to experience the stories from Sonic the Comic.
+The presentation of these graphic novels is broadly inspired by [The Complete Judge Dredd Case Files](https://shop.2000ad.com/catalogue/graphic-novels/dredd-case-files): Stories that were originally split into multiple parts have been joined back together, spin-off stories have been carefully positioned for the best continuity with the main strip, and unrelated articles and adverts have been removed. In all: these novels aim to be the best possible way to experience the comics content from Sonic the Comic.
 
 ## How to read
 
