@@ -20,5 +20,7 @@ Right now, five volumes of Sonic the Graphic Novel collection have been compiled
 
 ## Preview
 
+These images demonstrate the new covers and contents pages in Sonic the Graphic Novel collection, and should give you an indication of how the stories are laid out in these volumes compared to the original comics:
+
 <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%202/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%203/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%204/front_cover.png" width="200">
 <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/contents.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%203/contents.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/back_cover.png" width="200"> 
