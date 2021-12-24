@@ -6,7 +6,7 @@ The presentation of these graphic novels is inspired by [The Judge Dredd Case Fi
 
 ## How to Read
 
-To read *Sonic the Graphic Novel collection*, you'll first need to acquire digital copies of *Sonic the Comic*, *Sonic the Poster Mag*, *Sonic the Summer Special*, the *Sonic Holiday Specials* and the *Knuckles Knock-Out Special*. These aren't redistributed here, but can be found on [The Internet Archive](https://archive.org/) (The spin-off comics are optional, but you'll miss out on some good stories without them). Once you've collected all your issues, do the following:
+To read *Sonic the Graphic Novel collection*, you'll first need to acquire digital copies of *Sonic the Comic*, *Sonic the Poster Mag*, *Sonic the Summer Special*, the two *Sonic Holiday Specials* and the *Knuckles Knock-Out Special*. These aren't redistributed here, but can be found on [The Internet Archive](https://archive.org/) (The spin-off comics are optional, but you'll miss out on some good stories without them). Once you've collected all your issues, do the following:
 
 1. Download this GitHub repository (by clicking "Code" then "Download ZIP" in the top right corner of this page)
 2. Extract the .ZIP file to a folder on your computer
