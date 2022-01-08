@@ -44,94 +44,102 @@ Compiled from the pages of Sonic the Comic
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 90-91
 
-81	HEAD IN THE CLOUDS
+81	SHANGHAIED
+	Script: Nigel Kitching, Richard Elson
+	Art: Richard Elson
+	Lettering: Elitta Fell
+	Originally published in Sonic the Comic 91-93
+
+96	HEAD IN THE CLOUDS
 	Script: Lew Stringer
 	Art: Roberto Corona, Steve White
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 92
 
-86	A CHRISTMAS WISH
+101	A CHRISTMAS WISH
 	Script: Lew Stringer
 	Art: Roberto Corona, Steve White
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 93
 
-93	SEASON OF GOODWILL
+108	SEASON OF GOODWILL
 	Script: Lew Stringer
 	Art: Andy Pitchett, Steve White
 	Lettering: Gordon Robson
 	Originally published in Sonic the Comic 93
 
-98	EVE OF DESTRUCTION
+113	EVE OF DESTRUCTION
 	Script: Lew Stringer
 	Art: Richard Elson
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 94
 
-105	ROOTS
+120	ROOTS
 	Script: Nigel Kitching
 	Art: Nigel Dobbyn
 	Lettering: Elitta Fell
 	Originally published in Sonic the Comic 94-96
 
-120	THE MONSTER WAKES
+135	THE MONSTER WAKES
 	Script: Lew Stringer
 	Art: Roberto Corona, Andy Pitchett
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 94-95
 
-130	THE BIG FIGHT
+145	THE BIG FIGHT
 	Script: Nigel Kitching
 	Art: Richard Elson, Steve White
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 95
 
-137	HERO HOUR
+152	HERO HOUR
 	Script: Lew Stringer
 	Art: Andy Pritchett
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 96
 
-144	MOCK THE DOC
+159	MOCK THE DOC
 	Script: Lew Stringer
 	Art: Nigel Dobbyn
 	Lettering: Annie Parkhouse
 	Originally published in Sonic the Comic 96
 
-149	BOILING POINT
+164	BOILING POINT
 	Script: Lew Stringer
 	Art: Roberto Corona, Steve White
 	Lettering: Gordon Robson
 	Originally published in Sonic the Comic 97
 
-154	DOOMSDAY
+169	DOOMSDAY
 	Script: Nigel Kitching
 	Art: Richard Elson, John M Burns, Steve White
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 97-99
 
-175	VICTIMS
+190	VICTIMS
 	Script: Nigel Kitching
 	Art: Nigel Dobbyn
 	Lettering: Elitta Fell
 	Originally published in Sonic the Comic 97-99
 
-190	SOLIDARITY
+205	SOLIDARITY
 	Script: Lew Stringer
 	Art: Andy Pritchett
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 98
 
-195	NO EXIT
+210	NO EXIT
 	Script: Lew Stringer
 	Art: Andy Pritchett
 	Lettering: Tom Frame
 	Originally published in Sonic the Comic 99
 
-200	THE FINAL VICTORY
+215	THE FINAL VICTORY
 	Script: Nigel Kitching, Lew Stringer
-	Art: Richard Elson, Nigel Dobbyn, Roberto Corona, John M Burns
+	Art: Richard Elson, Nigel Dobbyn, Roberto Corona, John M Burns, Nigel Kitching
 	Lettering: Tom Frame, Elitta Fell, Gordon Robson
 	Originally published in Sonic the Comic 100
 
-222	COVER GALLERY
+237 BONUS CONTENT
+
+239	COVER GALLERY
