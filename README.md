@@ -18,27 +18,34 @@ To read *Sonic the Graphic Novel collection*, you'll first need to acquire digit
 
 These images of the new covers and contents pages in *Sonic the Graphic Novel collection* should give some idea of how the stories are laid out in these volumes compared to the original comics:
 
-### Sonic the Hedgehog
+### Sonic the Hedgehog - Volume 1
 <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/back_cover.png" width="200">
 
+### Sonic the Hedgehog - Volume 2
 <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%202/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%202/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%202/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%202/back_cover.png" width="200">
 
+### Sonic the Hedgehog - Volume 3
 <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%203/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%203/contents.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%203/back_cover.png" width="200">
 
+### Sonic the Hedgehog - Volume 4
 <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%204/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%204/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%204/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%204/back_cover.png" width="200">
 
+### Sonic the Hedgehog - Volume 5
 <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%205/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%205/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%205/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%205/back_cover.png" width="200">
 
+### Sonic the Hedgehog - Volume 6
 <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%206/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%206/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%206/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%206/back_cover.png" width="200">
 
-Watch this space for the remaining 3 volumes!
+### Tails - Volume 1
+<img src="data/Tails%20-%20Volume%201/front_cover.png" width="200"> <img src="data/Tails%20-%20Volume%201/contents.png" width="200"><img src="data/Tails%20-%20Volume%201/contents2.png" width="200"> <img src="data/Tails%20-%20Volume%201/back_cover.png" width="200">
 
-### Other Mobius Stories
-<img src="data/Tails%20-%20Volume%201/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%201/back_cover.png" width="200">
+### Golden Axe
+<img src="data/Golden%20Axe/front_cover.png" width="200"> <img src="data/Golden%20Axe/contents.png" width="200"> <img src="data/Golden%20Axe/back_cover.png" width="200">
 
-Watch this space for the second Tails volume, and the adventures of Amy and Tekno!
+### Ecco the Dolphin
+<img src="data/Ecco%20the%20Dolphin/front_cover.png" width="200"> <img src="data/Ecco%20the%20Dolphin/contents.png" width="200"> <img src="data/Ecco%20the%20Dolphin/back_cover.png" width="200">
 
-### Sega Superstars
-<img src="data/Ecco%20the%20Dolphin/front_cover.png" width="200"> <img src="data/Golden%20Axe/front_cover.png" width="200"> <img src="data/Streets%20of%20Rage/front_cover.png" width="200"> 
+### Streets of Rage
+<img src="data/Streets%20of%20Rage/front_cover.png" width="200"> <img src="data/Streets%20of%20Rage/contents.png" width="200"> <img src="data/Streets%20of%20Rage/back_cover.png" width="200">
 
-Watch this Space for rest of the Sega stories!
+The project is a work in progress: new volumes will be uploaded over the next few weeks as they are completed. In total, there are 25 volumes planned, covering all the stories ever published in Sonic the Comic. Watch this space!
