@@ -60,4 +60,7 @@ These images of the new covers and contents pages in *Sonic the Graphic Novel co
 ### Ecco the Dolphin
 <img src="data/Ecco%20the%20Dolphin/front_cover.png" width="200"> <img src="data/Ecco%20the%20Dolphin/contents.png" width="200"> <img src="data/Ecco%20the%20Dolphin/back_cover.png" width="200">
 
+### Sparkster
+<img src="data/Sparkster/front_cover.png" width="200"> <img src="data/Sparkster/contents.png" width="200"> <img src="data/Sparkster/back_cover.png" width="200">
+
 The project is a work in progress: new volumes will be uploaded over the next few weeks as they are completed. In total, there are 25 volumes planned, covering all the stories ever published in *Sonic the Comic*. Watch this space!

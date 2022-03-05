@@ -1600,6 +1600,34 @@ copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
 :: Back Cover
 %CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
 
+:: SPARKSTER
+:: ---------
+
+SET TITLE=Sparkster
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+
+:: Sparkster - Last of the Rocket Knights
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic053jun1995.cbz" -p 25-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic054jun1995.cbz" -p 25-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic055jul1995.cbz" -p 24-28 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic056jul1995.cbz" -p 25-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic057aug1995.cbz" -p 24-28 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic058aug1995.cbz" -p 25-29 -o "volumes\%TITLE%" -a
+
+:: Cover gallery seperator
+%CBZ% extract "data\%TITLE%\cover_gallery.png" -o "volumes\%TITLE%" -a
+
+:: Cover - Sparkster
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic055jul1995.cbz" -p 1 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
 :: -------------
 
 :: Compress all folders to .cbz files
