@@ -54,6 +54,9 @@ These images of the new covers and contents pages in *Sonic the Graphic Novel co
 ### Golden Axe
 <img src="data/Golden%20Axe/front_cover.png" width="200"> <img src="data/Golden%20Axe/contents.png" width="200"> <img src="data/Golden%20Axe/back_cover.png" width="200">
 
+### Wonder Boy
+<img src="data/Wonder%20Boy/front_cover.png" width="200"> <img src="data/Wonder%20Boy/contents.png" width="200"> <img src="data/Wonder%20Boy/back_cover.png" width="200">
+
 ### Streets of Rage
 <img src="data/Streets%20of%20Rage/front_cover.png" width="200"> <img src="data/Streets%20of%20Rage/contents.png" width="200"> <img src="data/Streets%20of%20Rage/back_cover.png" width="200">
 

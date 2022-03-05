@@ -1503,6 +1503,47 @@ copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
 :: Back Cover
 %CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
 
+:: WONDER BOY
+:: ----------
+
+SET TITLE=Wonder Boy
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+
+:: Wonder Boy in Demon World
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic002jun1993.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic003jun1993.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic004jul1993.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic005jul1993.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic006aug1993.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic007aug1993.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic008sep1993.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic009sep1993.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+
+:: Wonder Boy in Ghost World
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic022apr1994.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic023apr1994.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic024apr1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic025may1994.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic026may1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic027jun1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+
+:: Cover gallery seperator
+%CBZ% extract "data\%TITLE%\cover_gallery.png" -o "volumes\%TITLE%" -a
+
+:: Covers
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic009sep1993.cbz" -p 1 -o "volumes\%TITLE%" -a
+
+:: Previews
+%CBZ% extract "%ISSUE_DIR%\Sonic the Comic 001 (May 1993).cbz" -p 29 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
 :: STREETS OF RAGE
 :: ---------------
 
