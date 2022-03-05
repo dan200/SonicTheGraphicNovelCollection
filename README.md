@@ -36,16 +36,28 @@ These images of the new covers and contents pages in *Sonic the Graphic Novel co
 ### Sonic the Hedgehog - Volume 6
 <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%206/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%206/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%206/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%206/back_cover.png" width="200">
 
+### Sonic the Hedgehog - Volume 7
+<img src="data/Sonic%20the%20Hedgehog%20-%20Volume%207/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%207/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%207/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%207/back_cover.png" width="200">
+
+### Sonic the Hedgehog - Volume 8
+<img src="data/Sonic%20the%20Hedgehog%20-%20Volume%208/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%208/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%208/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%208/back_cover.png" width="200">
+
+### Sonic the Hedgehog - Volume 9
+<img src="data/Sonic%20the%20Hedgehog%20-%20Volume%209/front_cover.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%209/contents.png" width="200"><img src="data/Sonic%20the%20Hedgehog%20-%20Volume%209/contents2.png" width="200"> <img src="data/Sonic%20the%20Hedgehog%20-%20Volume%209/back_cover.png" width="200">
+
 ### Tails - Volume 1
 <img src="data/Tails%20-%20Volume%201/front_cover.png" width="200"> <img src="data/Tails%20-%20Volume%201/contents.png" width="200"><img src="data/Tails%20-%20Volume%201/contents2.png" width="200"> <img src="data/Tails%20-%20Volume%201/back_cover.png" width="200">
+
+### Shinobi
+<img src="data/Shinobi/front_cover.png" width="200"> <img src="data/Shinobi/contents.png" width="200"> <img src="data/Shinobi/back_cover.png" width="200">
 
 ### Golden Axe
 <img src="data/Golden%20Axe/front_cover.png" width="200"> <img src="data/Golden%20Axe/contents.png" width="200"> <img src="data/Golden%20Axe/back_cover.png" width="200">
 
-### Ecco the Dolphin
-<img src="data/Ecco%20the%20Dolphin/front_cover.png" width="200"> <img src="data/Ecco%20the%20Dolphin/contents.png" width="200"> <img src="data/Ecco%20the%20Dolphin/back_cover.png" width="200">
-
 ### Streets of Rage
 <img src="data/Streets%20of%20Rage/front_cover.png" width="200"> <img src="data/Streets%20of%20Rage/contents.png" width="200"> <img src="data/Streets%20of%20Rage/back_cover.png" width="200">
 
-The project is a work in progress: new volumes will be uploaded over the next few weeks as they are completed. In total, there are 25 volumes planned, covering all the stories ever published in Sonic the Comic. Watch this space!
+### Ecco the Dolphin
+<img src="data/Ecco%20the%20Dolphin/front_cover.png" width="200"> <img src="data/Ecco%20the%20Dolphin/contents.png" width="200"> <img src="data/Ecco%20the%20Dolphin/back_cover.png" width="200">
+
+The project is a work in progress: new volumes will be uploaded over the next few weeks as they are completed. In total, there are 25 volumes planned, covering all the stories ever published in *Sonic the Comic*. Watch this space!

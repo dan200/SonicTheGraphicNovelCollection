@@ -20,8 +20,7 @@ Compiled from the pages of Sonic the Comic
 	Lettering: John Aldrich
 	Originally published in Sonic the Comic 2
 
-32	MAYHEN IN THE MARBLE
-	ZONE
+32	MAYHEN IN THE MARBLE ZONE
 	Script: Mark Millar
 	Art: Casanovas
 	Lettering: Elitta Fell
@@ -39,8 +38,7 @@ Compiled from the pages of Sonic the Comic
 	Lettering: John Aldrich
 	Originally published in Sonic the Comic 5
 
-53	ATTACK ON THE DEATH
-	EGG
+53	ATTACK ON THE DEATH	EGG
 	Script: Nigel Kitching
 	Art: Ferran Rodriguez
 	Lettering: Elitta Fell
