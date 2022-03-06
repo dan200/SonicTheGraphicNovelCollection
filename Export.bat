@@ -1641,6 +1641,35 @@ copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
 :: Back Cover
 %CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
 
+:: MUTANT LEAGUE
+:: -------------
+
+SET TITLE=Mutant League
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+
+:: Mutant League - Bring Me The Head of Coach Brikka
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic031aug1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic032aug1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic033sep1994.cbz" -p 11-15 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic034sep1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic035sep1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic036oct1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+
+:: Cover gallery seperator
+%CBZ% extract "data\%TITLE%\cover_gallery.png" -o "volumes\%TITLE%" -a
+
+:: Cover gallery
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic031aug1994.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic030jul1994.cbz" -p 33 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
 :: SPARKSTER
 :: ---------
 

@@ -63,6 +63,9 @@ These images of the new covers and contents pages in *Sonic the Graphic Novel co
 ### Ecco the Dolphin
 <img src="data/Ecco%20the%20Dolphin/front_cover.png" width="200"> <img src="data/Ecco%20the%20Dolphin/contents.png" width="200"> <img src="data/Ecco%20the%20Dolphin/back_cover.png" width="200">
 
+### Mutant League
+<img src="data/Mutant%20League/front_cover.png" width="200"> <img src="data/Mutant%20League/contents.png" width="200"> <img src="data/Mutant%20League/back_cover.png" width="200">
+
 ### Sparkster
 <img src="data/Sparkster/front_cover.png" width="200"> <img src="data/Sparkster/contents.png" width="200"> <img src="data/Sparkster/back_cover.png" width="200">
 
