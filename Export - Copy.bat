@@ -11,7 +11,7 @@ SET ENHANCE_PARAMS=-whitebalance -denoise
 :: Decide which folder to export from
 if exist issues (
 	:: An issues folder exists, ask the user if we they want to enhance it
-	echo Issues folder found. Would you like to run image enhancement on the contents of these issues?
+	echo Issues folder found. Would you like to run denoise and white-balance these issues?
 	echo This may take some time, but will greatly improve the image quality of the final volumes.
 
 	choice /c YNC
@@ -1510,6 +1510,144 @@ copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
 :: Back Cover
 %CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
 
+:: AMY AND TEKNO
+:: -------------
+
+SET TITLE=Amy and Tekno
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents2.png" -o "volumes\%TITLE%" -a
+
+:: Amy - In Good Hands
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic041dec1994.cbz" -p 31-34,30 -o "volumes\%TITLE%" -a
+
+:: Amy in Snow Business
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic068jan1996.cbz" -p 25-29 -o "volumes\%TITLE%" -a
+
+:: Amy's Adventures - Out for a Spin
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic095jan1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Sonic's World - Deception
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic105jun1997.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+
+:: Sonic's World - Out of Work Hero
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic106jun1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Amy - Spot of Bother
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic108jul1997.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+
+:: Amy - Star Struck
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic109aug1997.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic110aug1997.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+
+:: Sonic's World, Amy & Tekno - Spaced Out
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic111sep1997.cbz" -p 22-26 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic112sep1997.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic113sep1997.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+
+:: Sonic's World, Amy & Tekno - Earthbound
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic114oct1997.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic115oct1997.cbz" -p 21-25 -o "volumes\%TITLE%" -a
+
+:: Sonic's World, Amy & Tekno - Spooked
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic116nov1997.cbz" -p 22-26 -o "volumes\%TITLE%" -a
+
+:: Sonic's World, Amy & Tekno - High in the Sky
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic117nov1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Sonic's World, Amy & Tekno - Multi-Mania
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic118dec1997.cbz" -p 21-25 -o "volumes\%TITLE%" -a
+
+:: Sonic's World: Amy & Tekno - Peace of The Action
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic119dec1997.cbz" -p 22-26 -o "volumes\%TITLE%" -a
+
+:: Sonic's World: Amy & Tekno - Breakout
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic120jan1998.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic121jan1998.cbz" -p 21-25 -o "volumes\%TITLE%" -a
+
+:: Sonic's World: Amy & Tekno - The Lump
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic124feb1998.cbz" -p 15-19 -o "volumes\%TITLE%" -a
+
+:: Sonic's World: Amy & Tekno - Green Envy
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic125mar1998.cbz" -p 22-26 -o "volumes\%TITLE%" -a
+
+:: Amy - Secret Past
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic127apr1998.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+
+:: Amy - Yesterday's Heroes
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic128apr1998.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Amy - Fights, Camera, Action
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic129may1998.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Amy - Vane Hopes
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic132jun1998.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+
+:: Amy - Following Suit
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic133jul1998.cbz" -p 10-14 -o "volumes\%TITLE%" -a
+
+:: Amy - Eternity Ring
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic134jul1998.cbz" -p 10-14 -o "volumes\%TITLE%" -a
+
+:: Amy - Prehistoric Ways
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic136aug1998.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+
+:: Amy - Day of the Puppets
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic137aug1998.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+
+:: Amy - Future Distractions
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic139sep1998.cbz" -p 10-14 -o "volumes\%TITLE%" -a
+
+:: Amy - Out of Time
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic140oct1998.cbz" -p 10-14 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic141oct1998.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Amy - Day One
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic142nov1998.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Amy - When in Romanus
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic143nov1998.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic144dec1998.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Amy - Dream On
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic145dec1998.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Amy - New Year Out
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic146dec1998.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Amy - Small Talk
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic147jan1999.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Amy - The Thirteenth Task
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic149feb1999.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Amy - Treasure Seeker
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic152mar1999.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic153apr1999.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Amy - Gangster Trap
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic154apr1999.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic155may1999.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Amy - Full Circle
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic156may1999.cbz" -p 9-13 -o "volumes\%TITLE%" -a
+
+:: Cover gallery seperator
+%CBZ% extract "data\%TITLE%\cover_gallery.png" -o "volumes\%TITLE%" -a
+
+:: Cover gallery
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic021mar1994.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic044feb1995.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic051may1995.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic068jan1996.cbz" -p 1 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
 :: SHINOBI
 :: -------
 
@@ -1642,6 +1780,42 @@ copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
 :: Back Cover
 %CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
 
+:: KID CHAMELEON
+:: -------------
+
+SET TITLE=Kid Chameleon
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+
+:: Kid Chameleon
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic007aug1993.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic008sep1993.cbz" -p 13-17 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic009sep1993.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic010oct1993.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic011oct1993.cbz" -p 13-17 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic012oct1993.cbz" -p 13-17 -o "volumes\%TITLE%" -a
+
+:: Kid Chameleon - Back to Unreality!
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic054jun1995.cbz" -p 13-17 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic055jul1995.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic056jul1995.cbz" -p 13-17 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic057aug1995.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic058aug1995.cbz" -p 13-17 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic059sep1995.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+
+:: Cover gallery seperator
+%CBZ% extract "data\%TITLE%\cover_gallery.png" -o "volumes\%TITLE%" -a
+
+:: Previews
+%CBZ% extract "%ISSUE_DIR%\Sonic the Comic 001 (May 1993).cbz" -p 28 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
 :: STREETS OF RAGE
 :: ---------------
 
@@ -1703,6 +1877,142 @@ copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
 :: Back Cover
 %CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
 
+:: DECAP ATTACK
+:: ------------
+
+SET TITLE=Decap Attack
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents2.png" -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Starring Chuck D. Head!
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic010oct1993.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic011oct1993.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic012oct1993.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic013nov1993.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic014nov1993.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic015dec1993.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Who Killed Chuck?
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic034sep1994.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic035sep1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic036oct1994.cbz" -p 25-28 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic037oct1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic038nov1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic039nov1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+
+:: Dacap Attack - The Replacement
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic040dec1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Monster of the Year
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic066dec1995.cbz" -p 13-17 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic067dec1995.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic068jan1996.cbz" -p 13-17 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - The Headless Snowmen
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic069jan1996.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Nanny Knows Best
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic070feb1996.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - The Bride of Chuck D. Head
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic071feb1996.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - The Pumpkin Chaser
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic089oct1996.cbz" -p 18-22 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Boris & The Book
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic090nov1996.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - The Legend of Mr Cuddle Bunny
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic091nov1996.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic092dec1996.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic093dec1996.cbz" -p 18-22 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - The Hungry Guest
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic094jan1997.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Dead!
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic097feb1997.cbz" -p 15-19 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic098mar1997.cbz" -p 15-19 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic099mar1997.cbz" -p 15-19 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Walls
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic101apr1997.cbz" -p 15-19 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Life with the Snagsbys
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic102apr1997.cbz" -p 15-19 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Funny Old Game
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic104may1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Wish
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic105jun1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Caught by the Prefects
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic107jul1997.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic108jul1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Dreaded Poople Plague
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic109aug1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - The Tooth
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic110aug1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - The Maltese Budgies
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic111sep1997.cbz" -p 15-19 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - The Fearless Monster Hunters
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic113sep1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Chuck and the Cheese Factory
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic114oct1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic115oct1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Return of the Pumpkins
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic116nov1997.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Christmas Carol II
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic119dec1997.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Chuck's Savings
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic120jan1998.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Love is Blind
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic123feb1998.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Dog
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic125mar1998.cbz" -p 15-19 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Mother
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic126mar1998.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - The Dungeon
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic129may1998.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Birthday
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic130may1998.cbz" -p 23-27 -o "volumes\%TITLE%" -a
+
+:: Decap Attack - Decap-Man
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic131jun1998.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic132jun1998.cbz" -p 16-20 -o "volumes\%TITLE%" -a
+
+:: Cover gallery seperator
+%CBZ% extract "data\%TITLE%\cover_gallery.png" -o "volumes\%TITLE%" -a
+
+:: Cover gallery
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic010oct1993.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic012oct1993.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic034sep1994.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic066dec1995.cbz" -p 1 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
 :: ECCO THE DOLPHIN
 :: ----------------
 
@@ -1739,6 +2049,72 @@ copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
 :: Back Cover
 %CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
 
+:: ETERNAL CHAMPIONS
+:: -----------------
+
+SET TITLE=Eternal Champions
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+
+:: Eternal Champions
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic019feb1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic020mar1994.cbz" -p 13-17 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic021mar1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic022apr1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic023apr1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic024apr1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+
+:: Eternal Champions - Larson's Revenge
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic037oct1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic038nov1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic039nov1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic040dec1994.cbz" -p 12-16 -o "volumes\%TITLE%" -a
+
+:: Cover gallery seperator
+%CBZ% extract "data\%TITLE%\cover_gallery.png" -o "volumes\%TITLE%" -a
+
+:: Cover gallery
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic019feb1994.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic024apr1994.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic039nov1994.cbz" -p 1 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
+:: PIRATE S.T.C
+:: ------------
+
+SET TITLE=Pirate STC
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+
+:: Pirate S.T.C
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic028jun1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic029jul1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic030jul1994.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic031aug1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic032aug1994.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic033sep1994.cbz" -p 25-28 -o "volumes\%TITLE%" -a
+
+:: Cover gallery seperator
+%CBZ% extract "data\%TITLE%\cover_gallery.png" -o "volumes\%TITLE%" -a
+
+:: Cover gallery
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic028jun1994.cbz" -p 1 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic027jun1994.cbz" -p 32 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic029jul1994.cbz" -p 32 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
 :: MUTANT LEAGUE
 :: -------------
 
@@ -1768,6 +2144,28 @@ copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
 :: Back Cover
 %CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
 
+:: MARKO'S MAGIC FOOTBALL
+:: ----------------------
+
+SET TITLE=Marko's Magic Football
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+
+:: Marko's Magic Football
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic041dec1994.cbz" -p 37-40 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic042jan1995.cbz" -p 39-42 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic043jan1995.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic044feb1995.cbz" -p 28-31 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic045feb1995.cbz" -p 27-30 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic046mar1995.cbz" -p 26-29 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
 :: SPARKSTER
 :: ---------
 
@@ -1792,6 +2190,28 @@ copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
 
 :: Cover - Sparkster
 %CBZ% extract "%ISSUE_DIR%\SonicTheComic055jul1995.cbz" -p 1 -o "volumes\%TITLE%" -a
+
+:: Back Cover
+%CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
+
+:: SHINING FORCE
+:: -------------
+
+SET TITLE=Shining Force
+mkdir "volumes\%TITLE%"
+copy /s /q "data\%TITLE%\tag.txt" "volumes\%TITLE%" > NUL
+
+:: Title and contents
+%CBZ% extract "data\%TITLE%\front_cover.png" -o "volumes\%TITLE%" -a
+%CBZ% extract "data\%TITLE%\contents.png" -o "volumes\%TITLE%" -a
+
+:: Shining Force - The Curse of Zeon
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic073mar1996.cbz" -p 19-23 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic074mar1996.cbz" -p 19-23 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic075apr1996.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic076apr1996.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic077may1996.cbz" -p 17-21 -o "volumes\%TITLE%" -a
+%CBZ% extract "%ISSUE_DIR%\SonicTheComic078may1996.cbz" -p 19-23 -o "volumes\%TITLE%" -a
 
 :: Back Cover
 %CBZ% extract "data\%TITLE%\back_cover.png" -o "volumes\%TITLE%" -a
