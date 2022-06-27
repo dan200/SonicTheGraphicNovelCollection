@@ -49,7 +49,7 @@ These images of the new covers and contents pages in *Sonic the Graphic Novel co
 <img src="data/Tails%20-%20Volume%201/front_cover.png" width="200"> <img src="data/Tails%20-%20Volume%201/contents.png" width="200"><img src="data/Tails%20-%20Volume%201/contents2.png" width="200"> <img src="data/Tails%20-%20Volume%201/back_cover.png" width="200">
 
 ### Tails - Volume 2
-<img src="data/Tails%20-%20Volume%202/front_cover.png" width="200"> <img src="data/Tails%20-%20Volume%201/contents.png" width="200"><img src="data/Tails%20-%20Volume%202/contents2.png" width="200"> <img src="data/Tails%20-%20Volume%202/back_cover.png" width="200">
+<img src="data/Tails%20-%20Volume%202/front_cover.png" width="200"> <img src="data/Tails%20-%20Volume%202/contents.png" width="200"><img src="data/Tails%20-%20Volume%202/contents2.png" width="200"> <img src="data/Tails%20-%20Volume%202/back_cover.png" width="200">
 
 ### Shinobi
 <img src="data/Shinobi/front_cover.png" width="200"> <img src="data/Shinobi/contents.png" width="200"> <img src="data/Shinobi/back_cover.png" width="200">
